@@ -17,9 +17,13 @@
 |FUN_10|Vector 容器缓存所有数据|包括了植物(m_plant)，食肉动物(m_wolf)，植食动物(m_rabit)|
 
 ##总体设计
-1、类关系图,可由VS直接导出总体的类关系图；  
+###类关系图:  
 Living类是所有生物的基类，Animals类是所有动物的基类，森林中的对象有由三种类：植物类(Plant)，植食动物类(Harmless)和食肉动物类(Carnivorous)来实例化得到。Plant类继承于Living类，Harmless类和Carnivorous类继承于Animals类。  
 Manage类依赖于其余大部分类，可视化初始界面封装于UI类中，常用工具类函数封装与Tools类中，程序资源管理部分封装与Resources类中。如图
+
+###设计类图: 
+
+
 
 
 ##参考资料
